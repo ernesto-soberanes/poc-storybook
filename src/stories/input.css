@@ -1,0 +1,33 @@
+.storybook-input {
+  display: inline-block;
+  border-radius: 3em;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  background-color: transparent;
+  color: #333;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+.storybook-input:focus {
+  outline: none;
+  box-shadow: rgba(85, 90, 185, 0.5) 0px 0px 0px 2px inset;
+}
+.storybook-input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.storybook-input--invalid {
+  box-shadow: rgba(220, 53, 69, 0.8) 0px 0px 0px 1px inset;
+}
+.storybook-input--small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.storybook-input--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+.storybook-input--large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
